@@ -23,15 +23,6 @@ function getToys(){
 }
 getToys().then(toys =>{toys.forEach(toy =>{renderToys(toy)})});
 
-
-
-
-
-
-
-
-
-
 function renderToys(toy) {
   let divCard=document.createElement("div");
   div.add.classList="card";
